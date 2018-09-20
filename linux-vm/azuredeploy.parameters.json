@@ -1,0 +1,27 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "ninhhuong"
+    },
+    "sshKeyData": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZP2bO+CitkhFHZHFKavmmDAqtXofQ4rOEiV+8VdhxM5udpot574G0o1WDxfmhoyiNVhr6+EeHrRMKYyMR+aO9eonTqPrK0jTJwUYIuFmg/HBXjQSMpFy02PR2GEr46ZIEMPVg8XuFA4eg5w5q8t92SemMz80Ep1/vWU2JbyWc7k7FtBhu0CbIUvYHGYysazIRmpFzFVgfYcnp/L+VVdId8EoqHaSsHNoGRcL/XuJ898djZkp4l6fZpHOBSw+DtZhpuNLINJOQTphn07g9ZXdeobLbxrRCKVqW0VXvQFjrZ8GL01sioBBZLFSt/aBtEoUZs0DwA5rkQ7DR8mii9Xw1 minh@cc-ad4a3a5a-5d96b88ffc-7bh7g"
+    },
+    "vmName": {
+      "value": "testVM"
+    },
+    "nicName": {
+      "value": "testNIC"
+    },
+    "publicIPAddressName": {
+      "value": "testPublicIP"
+    },
+    "virtualNetworkName": {
+      "value": "testVNET"
+    },
+    "securityRule": {
+      "value": "testSecurityRule"
+    }
+  }
+}
